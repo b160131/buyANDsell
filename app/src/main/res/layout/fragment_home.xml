@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="homeFragment"
+    android:background="@android:color/white"
+    tools:context="com.example.firebase3.homeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/homeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
